@@ -1,0 +1,12 @@
+# match data must never be committed (competition terms)
+data/
+*.mp4
+*.npz
+*.xml
+!src/**/*.xml
+# outputs
+results/
+__pycache__/
+.venv/
+.pytest_cache/
+.DS_Store
